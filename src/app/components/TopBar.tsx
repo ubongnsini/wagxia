@@ -2,7 +2,7 @@ import { Menu, User, Bell } from 'lucide-react';
 import { useUser } from '../context/UserContext';
 import { useSidebar } from '../context/SidebarContext';
 import { useNavigate } from 'react-router';
-import logoImg from '../../imports/1000609262.png';
+import logoImg from '"https://via.placeholder.com/150x150/4F46E5/FFFFFF?text=WAGXIA"';
 import { VIPCrown } from './VIPCrown';
 import { useState } from 'react';
 import { VIPProgressModal } from './VIPProgressModal';

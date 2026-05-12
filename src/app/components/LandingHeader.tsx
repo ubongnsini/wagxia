@@ -1,6 +1,6 @@
 import { Menu } from 'lucide-react';
 import { useState } from 'react';
-import logoImg from '../../imports/1000609262.png';
+import logoImg from '"https://via.placeholder.com/150x150/4F46E5/FFFFFF?text=WAGXIA"';
 import { useAuth } from '../context/AuthContext';
 
 interface LandingHeaderProps {
