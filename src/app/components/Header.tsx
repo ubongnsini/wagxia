@@ -1,7 +1,7 @@
 import { User, Bell, Menu } from 'lucide-react';
 import { useUser } from '../context/UserContext';
 import { useSidebar } from '../context/SidebarContext';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   const { balance, gameBalance, formatCurrency, formatUSDT } = useUser();
