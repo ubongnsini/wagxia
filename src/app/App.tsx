@@ -1,4 +1,3 @@
-
 // Wallet blocker (must be inside src/ and correctly named walletBlocker.ts)
 import "../walletBlocker";
 
