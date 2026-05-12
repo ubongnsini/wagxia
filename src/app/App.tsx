@@ -1,6 +1,3 @@
-// Wallet blocker (must be inside src/ and correctly named walletBlocker.ts)
-import "../walletBlocker";
-
 import { RouterProvider } from "react-router";
 import { router } from "./routes";
 
