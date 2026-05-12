@@ -1,5 +1,5 @@
 // Block wallet extensions FIRST - before anything else
-import '../walletBlocker';
+import '../../walletBlocker';
 
 import { RouterProvider } from 'react-router';
 import { router } from './routes';
