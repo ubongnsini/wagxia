@@ -1,4 +1,8 @@
-import { RouterProvider } from "react-router";
+
+// Wallet blocker (must be inside src/ and correctly named walletBlocker.ts)
+import "../walletBlocker";
+
+import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
 
 import { UserProvider } from "./context/UserContext";
