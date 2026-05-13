@@ -1,4 +1,4 @@
-import { useState } from 'react';
+	mport { useState } from 'react';
 
 function App() {
   const [showWallet, setShowWallet] = useState(false);
@@ -17,6 +17,7 @@ function App() {
         
         <div className="bg-gray-900 rounded-3xl p-8 max-w-2xl mx-auto">
           <p className="text-gray-400 text-lg">Your wallet interface goes here...</p>
+          <p className="mt-4 text-green-400">✅ Dashboard loaded successfully!</p>
         </div>
       </div>
     );
