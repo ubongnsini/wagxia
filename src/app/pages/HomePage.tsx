@@ -1142,6 +1142,23 @@ export function HomePage() {
           }
         }
       `}</style>
+{/* Navigation Test Buttons - Temporary for Development */}
+<div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3 lg:hidden">
+  <button
+    onClick={() => window.location.href = '/dashboard'}
+    className="bg-white text-black px-6 py-3 rounded-2xl font-bold shadow-lg"
+  >
+    Go to Dashboard →
+  </button>
+  
+  <button
+    onClick={() => window.location.href = '/game'}
+    className="bg-[#00FF88] text-black px-6 py-3 rounded-2xl font-bold shadow-lg"
+  >
+    Go to Game
+  </button>
+</div>
     </div>
   );
 }
+
