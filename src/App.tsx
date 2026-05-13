@@ -17,7 +17,7 @@ function App() {
         
         <div className="bg-gray-900 rounded-3xl p-8 max-w-2xl mx-auto">
           <p className="text-gray-400 text-lg">Your wallet interface goes here...</p>
-          <p className="mt-6 text-green-400 text-xl">✅ Dashboard loaded successfully! (Fixed)</p>
+          <p className="mt-6 text-green-400 text-xl">✅ Successfully loaded Dashboard!</p>
         </div>
       </div>
     );
