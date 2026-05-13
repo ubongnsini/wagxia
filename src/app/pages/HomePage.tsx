@@ -1158,6 +1158,15 @@ export function HomePage() {
     Go to Game
   </button>
 </div>
+{/* Quick Navigation for Testing */}
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 flex gap-4">
+          <button 
+            onClick={() => window.location.href = '/dashboard'}
+            className="bg-white text-black px-8 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:scale-105 active:scale-95 transition-all"
+          >
+            🏠 Go to Dashboard
+          </button>
+        </div>
     </div>
   );
 }
